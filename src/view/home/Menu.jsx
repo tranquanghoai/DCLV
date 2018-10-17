@@ -40,7 +40,9 @@ class Menu extends React.Component {
                   </li>
                 </ul>
               </li>
-              <li className="nav-item"><a href="agents.html" className="nav-link">Agents</a></li>
+              <li className="nav-item">
+                <Link to="/agent" className="nav-link">Agents</Link>
+              </li>
               <li className="nav-item">
                 <Link to="/gallery" className="nav-link">Gallery</Link>
               </li>

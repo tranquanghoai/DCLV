@@ -2,7 +2,6 @@ import T from '../common/js/common';
 import React from 'react';
 import { connect } from 'react-redux';
 import { loginUser } from '../redux/user.jsx'
-import Carousel from './Carousel.jsx';
 
 class IntroductionPage extends React.Component {
   constructor(props) {
