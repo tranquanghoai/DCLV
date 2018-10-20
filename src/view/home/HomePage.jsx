@@ -7,18 +7,22 @@ import './../common/myCss/custom.css';
 import './../common/myJs/front.js';
 
 import ListNewHouse from './ListNewHouse.jsx';
-import Search from './S'
+import Search from './Search.jsx';
+import ApartmentReady from './ApartmentReady.jsx';
+import ListArea from './ListArea.jsx';
 
 class HomePage extends React.Component {
     render() {
   
       return (
-        <React.Fragment>
+        
+          <div>
+            <Search />
+            <ListNewHouse />
+            <ApartmentReady />
+            <ListArea />
+          </div>
           
-          <Search />
-          <ListNewHouse />
-          
-        </React.Fragment>
       );
     }
   }

@@ -9,52 +9,6 @@ import React from 'react';
 class Footer extends React.Component {
   render() {
     return (
-      <div>
-            <section className="clients bg-black-4">
-  <div className="container">
-    <div className="swiper-container clients-slider">
-      <div className="swiper-wrapper">
-        <div className="swiper-slide">
-          <div className="client"><img src="img/logo-1.svg" alt="undefined" /></div>
-        </div>
-        <div className="swiper-slide">
-          <div className="client"><img src="img/logo-2.svg" alt="undefined" /></div>
-        </div>
-        <div className="swiper-slide">
-          <div className="client"><img src="img/logo-3.svg" alt="undefined" /></div>
-        </div>
-        <div className="swiper-slide">
-          <div className="client"><img src="img/logo-4.svg" alt="undefined" /></div>
-        </div>
-        <div className="swiper-slide">
-          <div className="client"><img src="img/logo-5.svg" alt="undefined" /></div>
-        </div>
-        <div className="swiper-slide">
-          <div className="client"><img src="img/logo-1.svg" alt="undefined" /></div>
-        </div>
-        <div className="swiper-slide">
-          <div className="client"><img src="img/logo-1.svg" alt="undefined" /></div>
-        </div>
-        <div className="swiper-slide">
-          <div className="client"><img src="img/logo-2.svg" alt="undefined" /></div>
-        </div>
-        <div className="swiper-slide">
-          <div className="client"><img src="img/logo-3.svg" alt="undefined" /></div>
-        </div>
-        <div className="swiper-slide">
-          <div className="client"><img src="img/logo-4.svg" alt="undefined" /></div>
-        </div>
-        <div className="swiper-slide">
-          <div className="client"><img src="img/logo-5.svg" alt="undefined" /></div>
-        </div>
-        <div className="swiper-slide">
-          <div className="client"><img src="img/logo-1.svg" alt="undefined" /></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
       <footer className="footer bg-black-5">
   <div className="container">
     <div className="row">
@@ -107,7 +61,6 @@ class Footer extends React.Component {
     </div>
   </div>
 </footer>
-</div>
 
     );
   }
