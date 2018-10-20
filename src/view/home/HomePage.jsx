@@ -7,6 +7,7 @@ import './../common/myCss/custom.css';
 import './../common/myJs/front.js';
 
 import ListNewHouse from './ListNewHouse.jsx';
+import Search from './S'
 
 class HomePage extends React.Component {
     render() {
@@ -14,7 +15,7 @@ class HomePage extends React.Component {
       return (
         <React.Fragment>
           
-          {/* <Carousel /> */}
+          <Search />
           <ListNewHouse />
           
         </React.Fragment>
