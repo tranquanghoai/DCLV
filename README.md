@@ -1,12 +1,17 @@
-# DCLV
+DCLV
 Đề cương luận văn ReactJs và Nodejs
 hello hello!
 
 Hiện thực hệ thống House Searching với khả năng matching đối tương khách hàng và chủ trọ với nhau thông qua hệ thống gợi ý.
 ---------------------------------------------------------------------------------------
 Cài đặt môi trường:
+1. Node.js - npm
+2. Express Application:
+  $ npm install -g express-generator
+3. Mongoose
+  $ npm install --save express body-parser mongoose
 1. Axios API:
-$ npm install axios
+  $ npm install axios
 
 
 ----------------------------------------------------------------------------------------
