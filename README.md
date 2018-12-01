@@ -3,8 +3,10 @@
 hello hello!
 
 Hiện thực hệ thống House Searching với khả năng matching đối tương khách hàng và chủ trọ với nhau thông qua hệ thống gợi ý.
-
-
+---------------------------------------------------------------------------------------
+Cài đặt môi trường:
+1. Axios API:
+$ npm install axios
 
 
 ----------------------------------------------------------------------------------------
